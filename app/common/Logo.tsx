@@ -3,7 +3,7 @@ const Logo = () => {
     <img
       src="/techradar.svg"
       alt="Techradar logo"
-      className="mt-1 w-4 h-4 inline"
+      className="mt-1 mr-1 w-6 h-6 inline"
     />
   );
 };

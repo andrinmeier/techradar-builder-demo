@@ -39,7 +39,7 @@ export default function App() {
       <body>
         <main className="flex justify-center h-screen bg-yellow">
           <Logo />
-          <h1 className="text-green">Techradar Demo</h1>
+          <h1 className="text-green text-2xl">Techradar</h1>
         </main>
         <ScrollRestoration />
         <Scripts />
