@@ -1,5 +1,6 @@
 import styles from "./tailwind.css";
 import { Links, LiveReload, Meta, Scripts, ScrollRestoration } from "remix";
+import Logo from "./common/Logo";
 
 export function links() {
   return [{ rel: "stylesheet", href: styles }];
@@ -37,6 +38,7 @@ export default function App() {
       </head>
       <body>
         <main className="flex justify-center h-screen bg-yellow">
+          <Logo />
           <h1 className="text-green">Techradar Demo</h1>
         </main>
         <ScrollRestoration />
